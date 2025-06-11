@@ -1,5 +1,16 @@
 # Sxodim.Aktau Telegram Bot — demo-v1.0
 
+## Стек и фреймворки
+- Python 3.12+
+- [aiogram 3.x](https://docs.aiogram.dev/en/latest/) — Telegram Bot API
+- [FastAPI](https://fastapi.tiangolo.com/) — REST API
+- [SQLAlchemy](https://www.sqlalchemy.org/) — ORM для работы с БД
+- [Alembic](https://alembic.sqlalchemy.org/) — миграции БД
+- [Pydantic](https://docs.pydantic.dev/) — валидация данных
+- [Uvicorn](https://www.uvicorn.org/) — ASGI сервер
+- [python-dotenv](https://pypi.org/project/python-dotenv/) — переменные окружения
+- SQLite (по умолчанию, можно заменить на PostgreSQL/MySQL)
+
 Бот-афиша для города Актау 🇰🇿: ближайшие мероприятия, акции, избранное, поиск, обратная связь, админ-панель и рассылки.
 
 ## Возможности
